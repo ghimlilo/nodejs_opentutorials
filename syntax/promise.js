@@ -45,3 +45,8 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 
  
 // response.json()이 리턴하는 값도 Promise -> then과 catch 쓸 수 있음
+
+
+
+//콜백지옥에서 벗어나는 방법
+//then은 함수를 인자로 받고, 첫번째 함수는 콜백함수로써 타이머가 실행되면 함수가 실행되도록 약속 되어 있다
